@@ -12,7 +12,7 @@ function CoursesPage() {
   return (
     <>
       <h2>Courses Page</h2>
-      <CourseList courses2={courses} />
+      <CourseList courses={courses} />
     </>
   );
 }
